@@ -1,0 +1,116 @@
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+	text-decoration-line: ;
+	text-decoration-thickness: ;
+	text-decoration-style: ;
+	text-decoration-color: ;
+}
+
+/* .App {
+	background: url("./assets/site-background.png");
+} */
+
+.bg-secondary {
+	--tw-bg-opacity: 1;
+	background-color: rgb(60 61 65 / var(--tw-bg-opacity));
+}
+
+.bg-primary {
+	--tw-bg-opacity: 1;
+	background-color: rgb(185 16 28 / var(--tw-bg-opacity));
+}
+
+.header-links:hover {
+	cursor: pointer;
+	background: #b9101c;
+}
+
+.bg-theme-primary {
+	background: #b9101c;
+}
+
+.color-theme-primary {
+	color: #b9101c;
+}
+
+.primary-btn {
+	background: #b9101c;
+	color: white !important;
+}
+
+.primary-btn:hover {
+	background: white;
+	color: black !important;
+}
+
+.font-poppins {
+	font-family: Poppins, sans-serif;
+}
+
+.font-semibold {
+	font-weight: 600;
+}
+
+.font-14 {
+	font-size: 14px;
+}
+
+@-webkit-keyframes bounce {
+	0%,
+	to {
+		-webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		-webkit-transform: translateY(-25%);
+		transform: translateY(-25%);
+	}
+
+	50% {
+		-webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+@keyframes bounce {
+	0%,
+	to {
+		-webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		-webkit-transform: translateY(-25%);
+		transform: translateY(-25%);
+	}
+
+	50% {
+		-webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+.animate-bounce {
+	-webkit-animation: bounce 1s infinite;
+	animation: bounce 1s infinite;
+}
+
+.py-96 {
+	padding-top: 96px !important;
+	padding-bottom: 96px !important;
+}
+
+.heading {
+	font-size: 3.75rem;
+	line-height: 1;
+	font-weight: 700;
+}
+
+.font-arial {
+	font-family: Arial, sans-serif !important;
+}
