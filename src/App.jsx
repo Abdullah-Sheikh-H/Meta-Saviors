@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import AboutUs from "./components/AboutUs"
 import TheArtist from "./components/TheArtist"
+import Team from "./components/Team"
+import Roadmap from "./components/Roadmap"
 
 function App() {
 	//import.meta.[varName]
@@ -14,6 +16,8 @@ function App() {
 			<Header />
 			<AboutUs />
 			<TheArtist />
+			<Team />
+			<Roadmap />
 		</div>
 	)
 }
