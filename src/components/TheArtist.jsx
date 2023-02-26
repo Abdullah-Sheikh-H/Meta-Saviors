@@ -6,7 +6,7 @@ const TheArtist = () => {
 			<div className="" style={{ paddingBottom: "16px", paddingTop: "96px" }}>
 				<div className="border-start border-2 border-danger col-12">
 					<div
-						className="dotted col-6"
+						className=" col-6"
 						style={{ height: "3rem", borderTop: "1px dashed white" }}
 					></div>
 				</div>

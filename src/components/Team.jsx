@@ -82,9 +82,10 @@ const Team = () => {
 					</p>
 				</div>
 			</div>
-			<div className="d-flex flex-wrap px-3 justify-content-center">
+			<div className=" row  px-3 mx-2 justify-content-center">
 				{teamMembers.map((TM) => (
 					<Card
+						className="col-3"
 						name={TM.name}
 						designation={TM.designation}
 						profileImage={TM.profileImage}
